@@ -18,6 +18,8 @@
     "express": "^4.15.2",
     "mongoose": "4.7.7",
     "morgan": "^1.8.1",
+    "react": "^15.4.2",
+    "react-native": "^0.43.1",
     "react-native-dotenv": "^0.0.4"
   },
   "devDependencies": {
