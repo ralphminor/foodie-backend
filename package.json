@@ -1,0 +1,8 @@
+{
+  "name": "foodie-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:ralphminor/foodie-backend.git",
+  "author": "Ralph Minor",
+  "license": "MIT"
+}
