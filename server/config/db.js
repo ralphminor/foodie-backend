@@ -1,5 +1,9 @@
 import mongoose from 'mongoose';
-import { MONGODB_URI } from 'react-native-dotenv';
+const dotenv = require('dotenv');
+dotenv.load();
+
+const MONGODB_URI = process.env.MONGODB_URI;
+
 export default () => {
   mongoose.Promise = global.Promise;
   mongoose.connect(MONGODB_URI + '/foodie');
